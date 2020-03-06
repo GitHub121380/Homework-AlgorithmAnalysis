@@ -1,11 +1,11 @@
 package cn.huaji.main;
 
 /**
- * @author 滑技工厂
- * @version 1.0
  * @ClassName Node
  * @Description 结点类
- * @date 2020/2/25
+ * @author 滑技工厂 https://blog.csdn.net/qq_41718454
+ * @date 2020/3/6
+ * @version 1.0
  */
 public class Node {
     Integer data;
@@ -18,6 +18,33 @@ public class Node {
         this.data = data;
         this.next = next;
     }
+
+    /*
+     * @Title getReciprocal
+     * @Description 求倒数第n个，递归中n表示index离目标结点的距离为length-n+1
+     *               flag先移动，每次都--n，直到n=1，flag与index一同移动，flag到尾巴时index即为所求
+     * @author 滑技工厂
+     * @Date 2020/3/6
+     * @param [flag, index, n]
+     * @return cn.huaji.main.Node
+     * @throws
+     */
+    public static Node getReciprocal(Node flag, Node index, int n) {
+        //第一个指针到尾巴，就返回指针2
+        if (flag.next == null) {
+            return index;
+        }
+        if (n <= 1) {
+            //n=1时index开始移动
+            index = index.next;
+        }
+        flag = flag.next;
+
+        return getReciprocal(flag, index, --n);
+
+    }
+
+
     /*
      * @Title reverse
      * @Description 逆置单链表
@@ -83,16 +110,28 @@ public class Node {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = i + 1;
         }
-
+        //创建单链表
         Node.create(head, arr);
-
+        //打印
         Node.print(head.next);
 
         System.out.println();
 
-        Node.reverse(head.next, head);
+        //逆置
+        //Node.reverse(head.next, head);
 
+
+        /* 测试
+         * 求倒数第n个
+        Node flag = head;
+        Node index = head;
+
+        System.out.println(Node.getReciprocal(flag,index,2).data);
+        */
         Node.print(head.next);
+
+
+
     }
 
 
