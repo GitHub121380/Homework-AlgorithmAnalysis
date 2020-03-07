@@ -54,6 +54,7 @@ public class Permutation {
         return true;
     }
 
+
     public static void main(String[] args) {
 
         char[] chars = {'a', 'b', 'c', 'c'};

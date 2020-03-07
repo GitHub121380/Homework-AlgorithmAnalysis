@@ -21,7 +21,7 @@ public class Node {
 
     /*
      * @Title getReciprocal
-     * @Description 求倒数第n个，递归中n表示index离目标结点的距离为length-n+1
+     * @Description 求倒数第n个，递归中n表示index移动到目标结点的次数为length-n
      *               flag先移动，每次都--n，直到n=1，flag与index一同移动，flag到尾巴时index即为所求
      * @author 滑技工厂
      * @Date 2020/3/6
