@@ -27,7 +27,8 @@ public class Permutation {
      * @throws
      */
     public static void allPermutation(char[] chars, int cursor, int end) {
-        if (cursor == end) {//cursor到数组最末
+        //cursor到数组最末
+        if (cursor == end) {
             System.out.println(Arrays.toString(chars));
         }
 
@@ -57,7 +58,7 @@ public class Permutation {
 
     public static void main(String[] args) {
 
-        char[] chars = {'a', 'b', 'c', 'c'};
+        char[] chars = {'a', 'b', 'c', 'd'};
         allPermutation(chars, 0, chars.length - 1);
 
     }
