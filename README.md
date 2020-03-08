@@ -8,15 +8,15 @@
   
   <hr/>
  
-### 2020/3/6
+# 2020/3/6
 
    更新Node类 新增**getReciprocal**方法 求单链表中倒数第n个结点
     
    博客：**[滑技工厂——递归求单链表中倒数第k个结点](https://blog.csdn.net/qq_41718454/article/details/104705086)**
     
-### 2020/3/7
+# 2020/3/7
 
-   更新BrokenKeyboard类
+   ##更新BrokenKeyboard类
     
    悲剧的文本
     
@@ -35,13 +35,21 @@
    博客：**[滑技工厂——破损的键盘（悲剧的文本）Java UVa11988](https://blog.csdn.net/qq_41718454/article/details/104710877)**
     
     
-### 2020/3/7
+
     
-   更新RotateString类。
+   ##更新RotateString类。
    
    给定两个字符串s1和s2，要求判断s2是否能够被通过s1做循环移位（rotate）得到的字符串包含。
    
    例如，S1=AABCD和s2=CDAA，返回true；给定s1=ABCD和s2=ACBD，返回false。
 
    博客：**[滑技工厂——字符串移位包含问题](https://blog.csdn.net/qq_41718454/article/details/104715210)**
-        
+   
+# 2020/3/8
+
+   ## 更新IntegerDivision类
+   整数划分问题
+   博客：**[滑技工厂——整数划分的递归实现算法，并输出所有划分（Java）](https://blog.csdn.net/qq_41718454/article/details/104733740)**
+      
+   
+   
