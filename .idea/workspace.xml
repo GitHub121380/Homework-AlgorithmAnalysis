@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="2020/3/7&#10;   更新">
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/IntegerDivision.java" afterDir="false" />
+    <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="2020/3/11   更新递归和非递归的二分查找">
+      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/Chess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/GetOneNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Permutation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,29 +22,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="456">
+                <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Ackerman.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="386">
+              <caret line="112" column="5" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="112" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Node.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="532">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="49" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="5" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/IntegerDivision.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1704">
+              <caret line="71" selection-start-line="2" selection-end-line="80" />
             </state>
           </provider>
         </entry>
@@ -55,50 +82,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BrokenKeyboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="106" selection-start-line="2" selection-end-line="106" />
+            <state relative-caret-position="2328">
+              <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="468">
-                <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/IntegerDivision.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="71" lean-forward="true" selection-start-line="2" selection-end-line="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/RotateString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/GetOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1776">
-              <caret line="74" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -155,12 +143,17 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/GetOneNumber.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/GetOne.java" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/Permutation.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Node.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/BrokenKeyboard.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/RotateString.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/IntegerDivision.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/HanoiImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/Chess.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -179,8 +172,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="125" />
+    <option name="x" value="843" />
+    <option name="y" value="-32" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -190,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,7 +207,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +214,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple-blockchain-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/huaji/main" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -229,6 +222,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspaces-idea\Homework-AlgorithmAnalysis\src\cn\huaji\main" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.huaji.main" />
     </key>
@@ -245,61 +241,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntegerDivision">
-    <configuration name="BrokenKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.BrokenKeyboard" />
-      <module name="Homework-AlgorithmAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.huaji.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntegerDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.IntegerDivision" />
-      <module name="Homework-AlgorithmAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.huaji.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Node" />
-      <module name="Homework-AlgorithmAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.huaji.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Permutation" />
-      <module name="Homework-AlgorithmAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.huaji.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.RotateString" />
+  <component name="RunManager">
+    <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Chess" />
       <module name="Homework-AlgorithmAnalysis" />
       <extension name="coverage">
         <pattern>
@@ -313,11 +257,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntegerDivision" />
-        <item itemvalue="Application.RotateString" />
-        <item itemvalue="Application.BrokenKeyboard" />
-        <item itemvalue="Application.Node" />
-        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.Chess" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +305,9 @@
       <workItem from="1583461649580" duration="3417000" />
       <workItem from="1583498459286" duration="16110000" />
       <workItem from="1583571018305" duration="200000" />
-      <workItem from="1583648429718" duration="4011000" />
+      <workItem from="1583648429718" duration="8631000" />
+      <workItem from="1583919205172" duration="2127000" />
+      <workItem from="1584078863201" duration="8251000" />
     </task>
     <task id="LOCAL-00001" summary="求n的全排列">
       <created>1583046312534</created>
@@ -444,11 +386,67 @@
       <option name="project" value="LOCAL" />
       <updated>1583566469189</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2020/3/8 更新一些项目的编译文件和idea配置文件">
+      <created>1583653652614</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583653652615</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2020/3/8 更新整数划分问题">
+      <created>1583653809772</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583653809772</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2020/3/8 更新readme">
+      <created>1583654037419</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583654037419</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2020/3/8 汉诺塔问题">
+      <created>1583655934361</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583655934361</updated>
+    </task>
+    <task id="LOCAL-00016" summary="修改格式">
+      <created>1583658854477</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583658854477</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2020/3/8 新增汉诺塔问题">
+      <created>1583658878922</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583658878922</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2020/3/11   更新递归和非递归的二分查找">
+      <created>1583920639757</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583920639757</updated>
+    </task>
+    <task id="LOCAL-00019" summary="2020/3/13 更新SearchNumbers类">
+      <created>1584086258474</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584086258474</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102722000" />
+    <option name="totallyTimeSpent" value="117720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,8 +459,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.18791947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.1932886" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -471,7 +470,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55982906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28917378" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +480,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.20940171" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32921347" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="bottom" id="Statistic" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
@@ -547,7 +546,15 @@
     <MESSAGE value="2020/3/7&#10;   更新BrokenKeyboard类（破损的键盘）和Readme" />
     <MESSAGE value="2020/3/7&#10;   更新readme" />
     <MESSAGE value="2020/3/7 更新RotateString类 更新文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/3/7 更新RotateString类 更新文档" />
+    <MESSAGE value="2020/3/8 更新一些项目的编译文件和idea配置文件" />
+    <MESSAGE value="2020/3/8 更新整数划分问题" />
+    <MESSAGE value="2020/3/8 更新readme" />
+    <MESSAGE value="2020/3/8 汉诺塔问题" />
+    <MESSAGE value="修改格式" />
+    <MESSAGE value="2020/3/8 新增汉诺塔问题" />
+    <MESSAGE value="2020/3/11   更新递归和非递归的二分查找" />
+    <MESSAGE value="2020/3/13 更新SearchNumbers类" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/3/13 更新SearchNumbers类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -708,13 +715,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/PassBridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/GCD_And_LCM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -726,13 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
@@ -750,51 +743,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HanoiImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="279">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/RotateString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/PassBridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/GetOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/IntegerDivision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1704">
+          <caret line="71" selection-start-line="2" selection-end-line="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BrokenKeyboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="106" selection-start-line="2" selection-end-line="106" />
+        <state relative-caret-position="2328">
+          <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/RotateString.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="532">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/GetOne.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
-          <caret line="74" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="-84">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="112" column="5" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="112" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="468">
-            <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <first_editor relative-caret-position="456">
+            <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/IntegerDivision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="71" lean-forward="true" selection-start-line="2" selection-end-line="80" />
         </state>
       </provider>
     </entry>
