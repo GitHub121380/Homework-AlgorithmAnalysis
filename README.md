@@ -65,3 +65,17 @@
    寻找一个数组中最大数、最小数、第二大数、第k小数
    
    我着实没看懂这道题 是一个方法实现还是分别几个方法，我就按照后者吧
+   
+   ### 棋盘覆盖问题
+   在一个2^k^×2^k^（k≥0）个方格组成的棋盘中，恰有一个方格与其他方格不同，称该方格为**特殊方格**。显然，特殊方格在棋盘中可能出现的位置有4^k^种，因而有4^k^种不同的棋盘。
+   
+   在棋盘覆盖问题中，要用图示的4种不同形态的L型骨牌覆盖给定的特殊棋盘上**除特殊方格**以外的所有方格，且任何2个L型骨牌**不得重叠**。
+   
+   1. 用到多少个L型骨牌
+   2. 具体的覆盖情况
+   
+   分治情况
+   ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200313170813812.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNzE4NDU0,size_16,color_FFFFFF,t_70)
+   
+   博客：**[滑技工厂——棋盘覆盖问题](https://blog.csdn.net/qq_41718454/article/details/104843247)**
+         
