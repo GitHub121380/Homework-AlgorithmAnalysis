@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="2020/3/11   更新递归和非递归的二分查找">
-      <change afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/BinarySearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Chess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/HanoiImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/SearchNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/Chess.java" afterDir="false" />
+    <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/BigInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Permutation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,23 +21,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="684">
-                <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+              <first_editor relative-caret-position="540">
+                <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1430">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="2832">
+              <caret line="118" column="81" selection-start-line="118" selection-start-column="81" selection-end-line="118" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -50,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="1512">
               <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
             </state>
           </provider>
@@ -156,8 +164,9 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Chess.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/BigInteger.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -176,8 +185,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="843" />
-    <option name="y" value="-32" />
+    <option name="x" value="841" />
+    <option name="y" value="-34" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -311,7 +320,9 @@
       <workItem from="1583571018305" duration="200000" />
       <workItem from="1583648429718" duration="8631000" />
       <workItem from="1583919205172" duration="2127000" />
-      <workItem from="1584078863201" duration="8537000" />
+      <workItem from="1584078863201" duration="8672000" />
+      <workItem from="1584102296018" duration="86000" />
+      <workItem from="1584168370863" duration="3138000" />
     </task>
     <task id="LOCAL-00001" summary="求n的全排列">
       <created>1583046312534</created>
@@ -453,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584092155052</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2020/3/13  更新Chess类 棋盘覆盖问题">
+      <created>1584092205935</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1584092205935</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118006000" />
+    <option name="totallyTimeSpent" value="121365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +489,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.1932886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.19865772" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,7 +498,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3988604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3988604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -565,7 +583,8 @@
     <MESSAGE value="2020/3/11   更新递归和非递归的二分查找" />
     <MESSAGE value="2020/3/13 更新SearchNumbers类" />
     <MESSAGE value="2020/3/13 更新项目配置和class文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/3/13 更新项目配置和class文件" />
+    <MESSAGE value="2020/3/13  更新Chess类 棋盘覆盖问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/3/13  更新Chess类 棋盘覆盖问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -789,6 +808,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2832">
+          <caret line="118" column="81" selection-start-line="118" selection-start-column="81" selection-end-line="118" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="49" selection-start-line="4" selection-start-column="16" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -813,41 +854,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="49" selection-start-line="4" selection-start-column="16" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="218">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="684">
-            <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+          <first_editor relative-caret-position="540">
+            <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1430">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
         </state>
       </provider>
     </entry>
