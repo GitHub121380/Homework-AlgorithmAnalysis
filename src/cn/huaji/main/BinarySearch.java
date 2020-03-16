@@ -9,7 +9,6 @@ package cn.huaji.main;
  */
 public class BinarySearch {
 
-
     /*
      * @Title recursiveBinarySearch
      * @Description 递归的二分查找

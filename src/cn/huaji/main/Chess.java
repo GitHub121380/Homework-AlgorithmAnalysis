@@ -1,11 +1,11 @@
 package cn.huaji.main;
 
 /**
+ * @author 滑技工厂 https://blog.csdn.net/qq_41718454
+ * @version 1.0
  * @ClassName Chess
  * @Description 棋盘覆盖问题
- * @author 滑技工厂 https://blog.csdn.net/qq_41718454
  * @date 2020/3/13
- * @version 1.0
  */
 public class Chess {
     //表示棋盘
@@ -75,39 +75,39 @@ public class Chess {
             return;
 
         int t = tile++;
-        int s = size/2;
+        int s = size / 2;
 
         //覆盖左上角子棋盘
-        if (dr<tr+s&&dc<tc+s)//特殊方格在这个里面
-            chessBoard(tr,tc,dr,dc,s);
+        if (dr < tr + s && dc < tc + s)//特殊方格在这个里面
+            chessBoard(tr, tc, dr, dc, s);
         else {//无特殊方块，用t号L骨牌覆盖右下角
-            board[tr+s-1][tc+s-1] = t;
+            board[tr + s - 1][tc + s - 1] = t;
             //覆盖其余方格
-            chessBoard(tr,tc,tr+s-1,tc+s-1,s);
+            chessBoard(tr, tc, tr + s - 1, tc + s - 1, s);
         }
 
         //覆盖右上角子棋盘
-        if (dr<tr+s&&dc>=tc+s)//特殊方格在这个里面
-            chessBoard(tr,tc+s,dr,dc,s);
+        if (dr < tr + s && dc >= tc + s)//特殊方格在这个里面
+            chessBoard(tr, tc + s, dr, dc, s);
         else {//无特殊方块，用t号L骨牌覆盖左下角
-            board[tr+s-1][tc+s] = t;
-            chessBoard(tr,tc+s,tr+s-1,tc+s,s);
+            board[tr + s - 1][tc + s] = t;
+            chessBoard(tr, tc + s, tr + s - 1, tc + s, s);
         }
 
         //覆盖左下角子棋盘
-        if (dr>=tr+s&&dc<tc+s)//特殊方格在这个里面
-            chessBoard(tr+s,tc,dr,dc,s);
+        if (dr >= tr + s && dc < tc + s)//特殊方格在这个里面
+            chessBoard(tr + s, tc, dr, dc, s);
         else {//无特殊方块，用t号L骨牌覆盖右上角
-            board[tr+s][tc+s-1] = t;
-            chessBoard(tr+s,tc,tr+s,tc+s-1,s);
+            board[tr + s][tc + s - 1] = t;
+            chessBoard(tr + s, tc, tr + s, tc + s - 1, s);
         }
 
         //覆盖右下角子棋盘
-        if (dr>=tr+s&&dc>=tc+s)//特殊方格在这个里面
-            chessBoard(tr+s,tc+s,dr,dc,s);
+        if (dr >= tr + s && dc >= tc + s)//特殊方格在这个里面
+            chessBoard(tr + s, tc + s, dr, dc, s);
         else {//无特殊方块，用t号L骨牌覆盖左上角
-            board[tr+s][tc+s] = t;
-            chessBoard(tr+s,tc+s,tr+s,tc+s,s);
+            board[tr + s][tc + s] = t;
+            chessBoard(tr + s, tc + s, tr + s, tc + s, s);
         }
 
     }
@@ -116,7 +116,7 @@ public class Chess {
     public static void main(String[] args) {
 
         Chess chess = new Chess(3, 4, 3);
-        chess.chessBoard(0,0,chess.dr,chess.dc,(int)Math.pow(2,chess.boardSize));
+        chess.chessBoard(0, 0, chess.dr, chess.dc, (int) Math.pow(2, chess.boardSize));
         chess.print();
 
     }
