@@ -1,11 +1,11 @@
 package cn.huaji.main;
 
 /**
- * @author 滑技工厂 https://blog.csdn.net/qq_41718454
- * @version 1.0
  * @ClassName Chess
  * @Description 棋盘覆盖问题
+ * @author 滑技工厂 https://blog.csdn.net/qq_41718454
  * @date 2020/3/13
+ * @version 1.0
  */
 public class Chess {
     //表示棋盘
