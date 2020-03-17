@@ -10,6 +10,7 @@ import java.util.*;
  * @version 1.0
  */
 public class GCD_And_LCM {
+
     /*
      * @Title gcd
      * @Description 辗转相除法

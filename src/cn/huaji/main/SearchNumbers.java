@@ -111,8 +111,8 @@ public class SearchNumbers {
      * @Title partation
      * @Description 把数组分为三部分并且返回等于部分的下标
      * @author 滑技工厂
-     * @Date 2020/3/13
-     * @param [arr, L, R]
+     * @Date 2020/3/17
+     * @param [arr, L初试范围+指针, R]
      * @return int[]
      * @throws
      */
