@@ -76,11 +76,60 @@ public class MergeSort {
         }
     }
 
+
+
+
+    public static void mergeSort2(int[] arr) {
+        if(arr==null || arr.length<=0)
+            return;
+        int width = 1;
+        while(width<arr.length) {
+            mergePass(arr,width);
+            width*=2;
+        }
+    }
+
+    private static void mergePass(int[] arr, int width) {
+        int start=0;
+        while(start+2*width-1<arr.length) {
+            int mid=start+width-1;
+            int end=start+2*width-1;
+            merge2(arr,start,mid,end);
+            start=start+2*width;
+        }
+        //剩余无法构成完整的两组也要进行处理
+        if(start+width-1<arr.length)
+            merge2(arr, start, start+width-1, arr.length-1);
+    }
+
+    private static void merge2(int[] arr, int start, int mid, int end) {
+        int i=start;
+        int j=mid+1;
+        int[] temp = new int[end-start+1];
+        int index=0;
+        while(i<=mid && j<=end) {
+            if(arr[i]<=arr[j])
+                temp[index++]=arr[i++];
+            else
+                temp[index++]=arr[j++];
+        }
+        while(i<=mid)
+            temp[index++]=arr[i++];
+        while(j<=end)
+            temp[index++]=arr[j++];
+
+        for(int k=start;k<=end;k++)
+            arr[k]=temp[k-start];
+    }
+
+
+
     public static void print(int[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
     }
+
 
     public static void main(String[] args) {
         int[] a = {49, 38, 65, 97, 76, 12, 27, 1};
