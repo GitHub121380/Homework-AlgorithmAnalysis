@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="2020/3/16 更新格式">
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/GCD_And_LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/GCD_And_LCM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/GCD_And_LCM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/GCD_And_LCM.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +26,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="287">
-                <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+              <first_editor relative-caret-position="2136">
+                <caret line="89" column="3" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -48,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
+            <state relative-caret-position="288">
               <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
@@ -57,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -66,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="2688">
               <caret line="112" column="18" lean-forward="true" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
             </state>
           </provider>
@@ -156,7 +154,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="840" />
+    <option name="x" value="263" />
     <option name="y" value="-35" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
@@ -167,7 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +188,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,7 +308,8 @@
       <workItem from="1584168370863" duration="6777000" />
       <workItem from="1584338671306" duration="2725000" />
       <workItem from="1584350151381" duration="1260000" />
-      <workItem from="1584404184667" duration="8597000" />
+      <workItem from="1584404184667" duration="10373000" />
+      <workItem from="1584527118805" duration="4359000" />
     </task>
     <task id="LOCAL-00001" summary="求n的全排列">
       <created>1583046312534</created>
@@ -487,11 +486,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584340885143</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="2020/3/17 更新归并排序递归">
+      <created>1584414685786</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1584414685786</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2020/3/18 更新归并排序非递归方法">
+      <created>1584540905327</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1584540905327</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137586000" />
+    <option name="totallyTimeSpent" value="143721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,10 +516,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="18" y="122" width="1152" height="620" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.20671141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -604,7 +617,9 @@
     <MESSAGE value="2020/3/14  更新大整数相乘BigInteger类" />
     <MESSAGE value="2020/3/14  更新StrassenMutipleMatrix类" />
     <MESSAGE value="2020/3/16 更新格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/3/16 更新格式" />
+    <MESSAGE value="2020/3/17 更新归并排序递归" />
+    <MESSAGE value="2020/3/18 更新归并排序非递归方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/3/18 更新归并排序非递归方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,18 +628,6 @@
           <url>jar://D:/Java/jdk1.8.0_171/src.zip!/java/io/BufferedInputStream.java</url>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -830,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/StrassenMutipleMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="147" column="22" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -899,31 +895,38 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="287">
-            <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+          <first_editor relative-caret-position="2136">
+            <caret line="89" column="3" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/StrassenMutipleMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3528">
+          <caret line="147" column="22" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
+        <state relative-caret-position="288">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="2688">
           <caret line="112" column="18" lean-forward="true" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
