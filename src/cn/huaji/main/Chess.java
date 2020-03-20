@@ -1,5 +1,7 @@
 package cn.huaji.main;
 
+import java.util.Date;
+
 /**
  * @ClassName Chess
  * @Description 棋盘覆盖问题
@@ -16,6 +18,8 @@ public class Chess {
     private int dr, dc;
     //骨牌标号
     private int tile;
+
+    private Date date;
 
     public Chess() {
         board = new int[1][1];

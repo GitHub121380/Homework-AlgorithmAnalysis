@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="2020/3/16 更新格式">
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" afterDir="false" />
+    <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/GCD_And_LCM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/GCD_And_LCM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/Chess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +26,28 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="2136">
-                <caret line="89" column="3" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
+              <first_editor relative-caret-position="566">
+                <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="866">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -46,16 +64,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="290">
+              <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="2952">
               <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
@@ -112,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/T.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/TestArrayCopy.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/Test.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Student.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Wei.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/PassBridge.java" />
@@ -130,12 +147,13 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/BigInteger.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/StrassenMutipleMatrix.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/Chess.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/GCD_And_LCM.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/Chess.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/Test.java" />
       </list>
     </option>
   </component>
@@ -154,8 +172,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="263" />
-    <option name="y" value="-35" />
+    <option name="x" value="175" />
+    <option name="y" value="-25" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -165,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,6 +205,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -223,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.Chess">
     <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Chess" />
       <module name="Homework-AlgorithmAnalysis" />
@@ -250,10 +268,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Test" />
+      <module name="Homework-AlgorithmAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.huaji.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Chess" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -310,6 +342,8 @@
       <workItem from="1584350151381" duration="1260000" />
       <workItem from="1584404184667" duration="10373000" />
       <workItem from="1584527118805" duration="4359000" />
+      <workItem from="1584588975829" duration="1458000" />
+      <workItem from="1584670033516" duration="6461000" />
     </task>
     <task id="LOCAL-00001" summary="求n的全排列">
       <created>1583046312534</created>
@@ -500,11 +534,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584540905327</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="2020/3/16 更新格式">
+      <created>1584589202912</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1584589202912</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143721000" />
+    <option name="totallyTimeSpent" value="151640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,10 +557,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="122" width="1152" height="620" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.2857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.21610738" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -528,7 +569,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3988604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35897437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,10 +657,10 @@
     <MESSAGE value="2020/3/13  更新Chess类 棋盘覆盖问题" />
     <MESSAGE value="2020/3/14  更新大整数相乘BigInteger类" />
     <MESSAGE value="2020/3/14  更新StrassenMutipleMatrix类" />
-    <MESSAGE value="2020/3/16 更新格式" />
     <MESSAGE value="2020/3/17 更新归并排序递归" />
     <MESSAGE value="2020/3/18 更新归并排序非递归方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/3/18 更新归并排序非递归方法" />
+    <MESSAGE value="2020/3/16 更新格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/3/16 更新格式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -628,6 +669,12 @@
           <url>jar://D:/Java/jdk1.8.0_171/src.zip!/java/io/BufferedInputStream.java</url>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -746,7 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Test.java" />
     <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/org/w3c/dom/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2737">
@@ -857,13 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24">
@@ -892,16 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2136">
-            <caret line="89" column="3" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/StrassenMutipleMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3528">
@@ -909,10 +938,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="2952">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
@@ -923,10 +952,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="566">
+            <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="290">
+          <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Chess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
