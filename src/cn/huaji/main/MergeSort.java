@@ -78,7 +78,8 @@ public class MergeSort {
 
 
 
-
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //归并排序的非递归
     public static void mergeSort2(int[] arr) {
         if(arr==null || arr.length<=0)
             return;
@@ -122,8 +123,81 @@ public class MergeSort {
             arr[k]=temp[k-start];
     }
 
+    ///////////////////////////////////////////////////////////////////////////////
+    //自然归并排序
+
+    //判断数组有序子序段的长度
+    int indexLen(int j,int [] a) {
+
+        int k=j+1;
+        int len=1;
+        for (; ;) {
+            if(k>=a.length)
+                break;
+            if(a[j]<a[k]) {
+                len++;
+                j++;
+                k++;
+            }
+            else break;
+        }
+        return len;
+    }
+    int index=0;
+    public void Printf(int a[]){
+        index=indexLen(index,a);
+    }
+    public void mergeSort(int[] a) {
+        int len = 0;
+        while(indexLen(0,a)<a.length){
+            for (int i = 0,k1=0,k2=0; i < a.length; ) {
+                k1=indexLen(i,a);
+                k2=indexLen(k1,a);
+                merge(a, i, k1,k2);
+                i=i+k1+k2;
+                System.out.println("相邻两组合并排序以后:" + Arrays.toString(a));
+            }
+        }
+    }
+    public void merge(int[] a, int i, int len1,int len2) {
+        int start = i;
+        int X = i + len1;// 归并的前半部分数组
+        int j = i + len1;
+        int Y = j + len2;// 归并的后半部分数组
+        int[] temp = new int[len1+len2];
+        int count = 0;
+        while (i < X && j < Y && j < a.length) {
+            if (a[i] <= a[j]) {
+                temp[count++] = a[i++];
+            }
+            else {
+                temp[count++] = a[j++];
+            }
+        }
+        while (i < X && i < a.length) {
+            temp[count++] = a[i++];
+        }
+        while (j < Y && j < a.length) {
+            temp[count++] = a[j++];
+        }
+        count = 0;
+        while (start < j && start < a.length) {
+            a[start++] = temp[count++];
+        }
+    }
 
 
+
+
+    /*
+     * @Title print
+     * @Description 打印
+     * @author 滑技工厂
+     * @Date 2020/3/21
+     * @param [a]
+     * @return void
+     * @throws
+     */
     public static void print(int[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");

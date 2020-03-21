@@ -10,9 +10,10 @@ import java.util.Stack;
  * @version 1.0
  */
 public class QuickSort {
+////////////////////////////////////////////////////////////////////
 
     /*
-     * @Title quicksort 递归快排
+     * @Title quickSort 递归快排 随机元素为基准的快速排序
      * @Description partation操作每次只操作一个 递归去循环
      * @author 滑技工厂
      * @Date 2020/3/17
@@ -20,7 +21,7 @@ public class QuickSort {
      * @return void
      * @throws
      */
-    public static void quicksort(int[] arr, int L, int R) {
+    public static void quickSort(int[] arr, int L, int R) {
         if (L < R) {
             swap(arr, L + (int) (Math.random() * (R - L + 1)), R);
             int[] temp = partation(arr, L, R);
@@ -54,6 +55,7 @@ public class QuickSort {
         return new int[]{less + 1, more - 1};   //返回等于范围的下标
     }
 
+    ///////////////////////////////////////////////////////////////////
 
     /*
      * @Title generQuickSort
@@ -127,5 +129,40 @@ public class QuickSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    //////////////////////////////////////////////////////////////////
+    /*
+     * @Title quicksort
+     * @Description 正常递归快排
+     * @author 滑技工厂
+     * @Date 2020/3/21
+     * @param [n, left, right]
+     * @return void
+     * @throws
+     */
+    public static void quicksort(int n[], int left, int right) {
+        int dp;
+        if (left < right) {
+            dp = partition(n, left, right);
+            quicksort(n, left, dp - 1);
+            quicksort(n, dp + 1, right);
+        }
+    }
+
+    public static int partition(int n[], int left, int right) {
+        int pivot = n[left];
+        while (left < right) {
+            while (left < right && n[right] >= pivot)
+                right--;
+            if (left < right)
+                n[left++] = n[right];
+            while (left < right && n[left] <= pivot)
+                left++;
+            if (left < right)
+                n[right--] = n[left];
+        }
+        n[left] = pivot;
+        return left;
+    }
+
 
 }
