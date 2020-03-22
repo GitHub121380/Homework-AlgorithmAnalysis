@@ -76,101 +76,101 @@ public class MergeSort {
         }
     }
 
-
-
     ///////////////////////////////////////////////////////////////////////////////////////
     //归并排序的非递归
     public static void mergeSort2(int[] arr) {
-        if(arr==null || arr.length<=0)
+        if (arr == null || arr.length <= 0)
             return;
         int width = 1;
-        while(width<arr.length) {
-            mergePass(arr,width);
-            width*=2;
+        while (width < arr.length) {
+            mergePass(arr, width);
+            width *= 2;
         }
     }
 
     private static void mergePass(int[] arr, int width) {
-        int start=0;
-        while(start+2*width-1<arr.length) {
-            int mid=start+width-1;
-            int end=start+2*width-1;
-            merge2(arr,start,mid,end);
-            start=start+2*width;
+        int start = 0;
+        while (start + 2 * width - 1 < arr.length) {
+            int mid = start + width - 1;
+            int end = start + 2 * width - 1;
+            merge2(arr, start, mid, end);
+            start = start + 2 * width;
         }
         //剩余无法构成完整的两组也要进行处理
-        if(start+width-1<arr.length)
-            merge2(arr, start, start+width-1, arr.length-1);
+        if (start + width - 1 < arr.length)
+            merge2(arr, start, start + width - 1, arr.length - 1);
     }
 
     private static void merge2(int[] arr, int start, int mid, int end) {
-        int i=start;
-        int j=mid+1;
-        int[] temp = new int[end-start+1];
-        int index=0;
-        while(i<=mid && j<=end) {
-            if(arr[i]<=arr[j])
-                temp[index++]=arr[i++];
+        int i = start;
+        int j = mid + 1;
+        int[] temp = new int[end - start + 1];
+        int index = 0;
+        while (i <= mid && j <= end) {
+            if (arr[i] <= arr[j])
+                temp[index++] = arr[i++];
             else
-                temp[index++]=arr[j++];
+                temp[index++] = arr[j++];
         }
-        while(i<=mid)
-            temp[index++]=arr[i++];
-        while(j<=end)
-            temp[index++]=arr[j++];
+        while (i <= mid)
+            temp[index++] = arr[i++];
+        while (j <= end)
+            temp[index++] = arr[j++];
 
-        for(int k=start;k<=end;k++)
-            arr[k]=temp[k-start];
+        for (int k = start; k <= end; k++)
+            arr[k] = temp[k - start];
     }
 
     ///////////////////////////////////////////////////////////////////////////////
     //自然归并排序
 
     //判断数组有序子序段的长度
-    int indexLen(int j,int [] a) {
+    int indexLen(int j, int[] a) {
 
-        int k=j+1;
-        int len=1;
-        for (; ;) {
-            if(k>=a.length)
+        int k = j + 1;
+        int len = 1;
+        for (; ; ) {
+            if (k >= a.length)
                 break;
-            if(a[j]<a[k]) {
+            if (a[j] < a[k]) {
                 len++;
                 j++;
                 k++;
-            }
-            else break;
+            } else break;
         }
         return len;
     }
-    int index=0;
-    public void Printf(int a[]){
-        index=indexLen(index,a);
+
+    int index = 0;
+
+    public void Printf(int a[]) {
+        index = indexLen(index, a);
     }
+
     public void mergeSort(int[] a) {
         int len = 0;
-        while(indexLen(0,a)<a.length){
-            for (int i = 0,k1=0,k2=0; i < a.length; ) {
-                k1=indexLen(i,a);
-                k2=indexLen(k1,a);
-                merge(a, i, k1,k2);
-                i=i+k1+k2;
+        while (indexLen(0, a) < a.length) {
+            for (int i = 0, k1 = 0, k2 = 0; i < a.length; ) {
+                k1 = indexLen(i, a);
+                k2 = indexLen(k1, a);
+                merge(a, i, k1, k2);
+                i = i + k1 + k2;
                 System.out.println("相邻两组合并排序以后:" + Arrays.toString(a));
             }
         }
     }
-    public void merge(int[] a, int i, int len1,int len2) {
+
+    public void merge(int[] a, int i, int len1, int len2) {
         int start = i;
         int X = i + len1;// 归并的前半部分数组
         int j = i + len1;
         int Y = j + len2;// 归并的后半部分数组
-        int[] temp = new int[len1+len2];
+        int[] temp = new int[len1 + len2];
         int count = 0;
         while (i < X && j < Y && j < a.length) {
             if (a[i] <= a[j]) {
                 temp[count++] = a[i++];
-            }
-            else {
+            } else {
                 temp[count++] = a[j++];
             }
         }
@@ -186,9 +186,7 @@ public class MergeSort {
         }
     }
 
-
-
-
+    //////////////////////////////////////////////////////
     /*
      * @Title print
      * @Description 打印
@@ -206,8 +204,8 @@ public class MergeSort {
 
 
     public static void main(String[] args) {
-        int[] a = {49, 38, 65, 97, 76, 12, 27, 1};
-        mergeSort(a, 0, 7);
+        int[] a = {49, 38, 65, 97, 76, 12, 27};
+        mergeSort(a, 0, 6);
         print(a);
     }
 }

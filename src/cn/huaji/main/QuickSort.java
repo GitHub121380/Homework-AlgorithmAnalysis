@@ -129,6 +129,7 @@ public class QuickSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
     //////////////////////////////////////////////////////////////////
     /*
      * @Title quicksort
@@ -164,5 +165,18 @@ public class QuickSort {
         return left;
     }
 
+
+
+    public static void print(int[] a) {
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] a = {49, 38, 65, 97, 76, 12, 27};
+        quickSort(a, 0, 6);
+        print(a);
+    }
 
 }
