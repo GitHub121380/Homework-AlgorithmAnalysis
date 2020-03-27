@@ -75,6 +75,7 @@
    2. 具体的覆盖情况
    
    分治情况
+
    ![](https://img-blog.csdnimg.cn/20200313170813812.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNzE4NDU0,size_16,color_FFFFFF,t_70)
    
    博客：**[滑技工厂——棋盘覆盖问题](https://blog.csdn.net/qq_41718454/article/details/104843247)**
@@ -88,6 +89,8 @@
 # 2020/3/17
    ### 更新MergeSort归并排序的递归和非递归
    
+   博客：**[滑技工厂——归并排序（合并排序）Java](https://blog.csdn.net/qq_41718454/article/details/104913897)**
+
 # 2020/3/19   
    ### 更新QuickSort随机数元素快速排序的递归
    
@@ -102,3 +105,5 @@
    
 # 2020/3/27
    ### 更新LinearSelect线性时间选择的第二种——利用中位数线性时间选择
+   
+   博客：**[滑技工厂——线性时间选择算法（Java）](https://blog.csdn.net/qq_41718454/article/details/105122502)**
