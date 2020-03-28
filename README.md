@@ -107,3 +107,11 @@
    ### 更新LinearSelect线性时间选择的第二种——利用中位数线性时间选择
    
    博客：**[滑技工厂——线性时间选择算法（Java）](https://blog.csdn.net/qq_41718454/article/details/105122502)**
+
+# 2020/3/28
+   
+   ### 更新ShortestDistance类 给定平面上N个点的坐标,找出距离最近的两个点
+   
+   分治
+
+   博客：**[滑技工厂——给定平面上N个点的坐标,找出距离最近的两个点（Java）](https://blog.csdn.net/qq_41718454/article/details/105162089)**
