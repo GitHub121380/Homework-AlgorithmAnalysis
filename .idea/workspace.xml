@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,6 +12,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -26,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="492">
-                <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+              <first_editor relative-caret-position="180">
+                <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -35,16 +48,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="696">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#1070#1260#0" />
-                <element signature="method#divide#0;class#MinDis#0" />
               </folding>
             </state>
           </provider>
@@ -92,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Student.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Wei.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/PassBridge.java" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Ackerman.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/GetOneNumber.java" />
@@ -114,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -144,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +195,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +207,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -202,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinearSelect">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Chess" />
       <module name="Homework-AlgorithmAnalysis" />
@@ -255,26 +282,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Test" />
-      <module name="Homework-AlgorithmAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.huaji.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Chess" />
+      <item itemvalue="Application.LinearSelect" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.QuickSort" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LinearSelect" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Chess" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +358,12 @@
       <workItem from="1585049874278" duration="91000" />
       <workItem from="1585205182863" duration="7263000" />
       <workItem from="1585290358521" duration="3859000" />
-      <workItem from="1585354519997" duration="5099000" />
+      <workItem from="1585354519997" duration="5815000" />
+      <workItem from="1585395277547" duration="31000" />
+      <workItem from="1585395969994" duration="285000" />
+      <workItem from="1585456305118" duration="429000" />
+      <workItem from="1585485303708" duration="200000" />
+      <workItem from="1586862960042" duration="3787000" />
     </task>
     <task id="LOCAL-00001" summary="求n的全排列">
       <created>1583046312534</created>
@@ -579,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585302586563</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2020/3/28  更新ShortestDistance类 给定平面上N个点的坐标,找出距离最近的两个点">
+      <created>1585381090100</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1585381090100</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180368000" />
+    <option name="totallyTimeSpent" value="185816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,7 +628,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.20469798" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.16174497" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -617,12 +648,12 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.20940171" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
-      <window_info anchor="bottom" id="Statistic" order="13" />
+      <window_info anchor="bottom" id="Statistic" order="13" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32885906" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -673,7 +704,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/3/7&#10;   更新Node类" />
     <MESSAGE value="2020/3/7&#10;   更新Node、Permutation类" />
     <MESSAGE value="2020/3/7&#10;   更新BrokenKeyboard类（破损的键盘）和Readme" />
     <MESSAGE value="2020/3/7&#10;   更新readme" />
@@ -698,7 +728,8 @@
     <MESSAGE value="2020/3/26  更新LinearSelect线性时间选择的第一种——随机元素为基准的线性时间选择" />
     <MESSAGE value="2020/3/27   更新LinearSelect线性时间选择的第二种——利用中位数线性时间选择" />
     <MESSAGE value="2020/3/27   更新readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/3/27   更新readme" />
+    <MESSAGE value="2020/3/28  更新ShortestDistance类 给定平面上N个点的坐标,找出距离最近的两个点" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/3/28  更新ShortestDistance类 给定平面上N个点的坐标,找出距离最近的两个点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -864,13 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HanoiImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1002,32 +1026,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="696">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#1070#1260#0" />
-            <element signature="method#divide#0;class#MinDis#0" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="492">
-            <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+          <first_editor relative-caret-position="180">
+            <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
