@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,44 +34,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="180">
-                <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+                <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LCS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -142,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" />
       </list>
     </option>
   </component>
@@ -171,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,6 +172,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -229,9 +208,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.LCS">
     <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Chess" />
+      <module name="Homework-AlgorithmAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.huaji.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.LCS" />
       <module name="Homework-AlgorithmAnalysis" />
       <extension name="coverage">
         <pattern>
@@ -287,9 +279,11 @@
       <item itemvalue="Application.LinearSelect" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.LCS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCS" />
         <item itemvalue="Application.LinearSelect" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
@@ -363,7 +357,9 @@
       <workItem from="1585395969994" duration="285000" />
       <workItem from="1585456305118" duration="429000" />
       <workItem from="1585485303708" duration="200000" />
-      <workItem from="1586862960042" duration="3787000" />
+      <workItem from="1586862960042" duration="4396000" />
+      <workItem from="1586952814991" duration="609000" />
+      <workItem from="1587091509788" duration="3501000" />
     </task>
     <task id="LOCAL-00001" summary="求n的全排列">
       <created>1583046312534</created>
@@ -610,11 +606,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585381090100</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="2020/4/14  更新Fibonacci类的两个新方法">
+      <created>1586873348471</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1586873348471</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185816000" />
+    <option name="totallyTimeSpent" value="190535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,8 +630,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.16174497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.16577181" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -704,7 +708,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/3/7&#10;   更新Node、Permutation类" />
     <MESSAGE value="2020/3/7&#10;   更新BrokenKeyboard类（破损的键盘）和Readme" />
     <MESSAGE value="2020/3/7&#10;   更新readme" />
     <MESSAGE value="2020/3/7 更新RotateString类 更新文档" />
@@ -729,7 +732,8 @@
     <MESSAGE value="2020/3/27   更新LinearSelect线性时间选择的第二种——利用中位数线性时间选择" />
     <MESSAGE value="2020/3/27   更新readme" />
     <MESSAGE value="2020/3/28  更新ShortestDistance类 给定平面上N个点的坐标,找出距离最近的两个点" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/3/28  更新ShortestDistance类 给定平面上N个点的坐标,找出距离最近的两个点" />
+    <MESSAGE value="2020/4/14  更新Fibonacci类的两个新方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/4/14  更新Fibonacci类的两个新方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -753,16 +757,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="108" column="27" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main192.java" />
     <entry file="file://$PROJECT_DIR$/src/Main17" />
     <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/lang/System.java">
@@ -785,13 +779,6 @@
             <element signature="e#39988#39989#0" expanded="true" />
             <element signature="e#40069#40070#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1873">
-          <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -958,13 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/GetOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/PassBridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -1026,9 +1006,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/GetOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
+        <state relative-caret-position="602">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1036,27 +1037,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="180">
-            <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+            <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="659" column="19" selection-start-line="659" selection-start-column="19" selection-end-line="659" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LCS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
