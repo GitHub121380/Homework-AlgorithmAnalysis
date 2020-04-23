@@ -19,7 +19,6 @@ public class LCS {
     public static void main(String[] args) {
         lcs(a, b);
         print(a.length(), b.length());
-
     }
 
     /*
@@ -60,6 +59,16 @@ public class LCS {
         System.out.println(dp[a.length()][b.length()]);
     }
 
+    /*
+     * @Title print
+     * @Description 打印方法 通过递归实现 从direction的右下角开始，
+     * 通过1/2/3来确定他的父元素的位置在哪，元素等于1时输出并且去找左上方，直到i/j为0为止
+     * @author 滑技工厂
+     * @Date 2020/4/18
+     * @param [i, j]
+     * @return void
+     * @throws
+     */
     public static void print(int i, int j) {
         if (i == 0 || j == 0)
             return;

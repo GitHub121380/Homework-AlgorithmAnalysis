@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="180">
-                <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+              <first_editor relative-caret-position="312">
+                <caret line="125" column="47" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,8 +52,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LCS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="602">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -119,8 +131,9 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -150,6 +163,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,8 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,20 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LCS">
-    <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Chess" />
-      <module name="Homework-AlgorithmAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.huaji.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MatrixMultiply">
     <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.LCS" />
       <module name="Homework-AlgorithmAnalysis" />
@@ -237,6 +237,19 @@
     </configuration>
     <configuration name="LinearSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.LinearSelect" />
+      <module name="Homework-AlgorithmAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.huaji.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixMultiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.MatrixMultiply" />
       <module name="Homework-AlgorithmAnalysis" />
       <extension name="coverage">
         <pattern>
@@ -275,19 +288,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Chess" />
       <item itemvalue="Application.LinearSelect" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.LCS" />
+      <item itemvalue="Application.MatrixMultiply" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixMultiply" />
         <item itemvalue="Application.LCS" />
         <item itemvalue="Application.LinearSelect" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Chess" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +372,11 @@
       <workItem from="1585485303708" duration="200000" />
       <workItem from="1586862960042" duration="4396000" />
       <workItem from="1586952814991" duration="609000" />
-      <workItem from="1587091509788" duration="3501000" />
+      <workItem from="1587091509788" duration="3759000" />
+      <workItem from="1587167938692" duration="2856000" />
+      <workItem from="1587204135573" duration="222000" />
+      <workItem from="1587518815960" duration="3356000" />
+      <workItem from="1587603397813" duration="2823000" />
     </task>
     <task id="LOCAL-00001" summary="求n的全排列">
       <created>1583046312534</created>
@@ -613,11 +630,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586873348471</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="2020/4/17 更新LCS最大公共子序列类">
+      <created>1587111566651</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1587111566651</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190535000" />
+    <option name="totallyTimeSpent" value="200050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,9 +654,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.16577181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.17315437" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -708,7 +731,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/3/7&#10;   更新BrokenKeyboard类（破损的键盘）和Readme" />
     <MESSAGE value="2020/3/7&#10;   更新readme" />
     <MESSAGE value="2020/3/7 更新RotateString类 更新文档" />
     <MESSAGE value="2020/3/8 更新一些项目的编译文件和idea配置文件" />
@@ -733,7 +755,8 @@
     <MESSAGE value="2020/3/27   更新readme" />
     <MESSAGE value="2020/3/28  更新ShortestDistance类 给定平面上N个点的坐标,找出距离最近的两个点" />
     <MESSAGE value="2020/4/14  更新Fibonacci类的两个新方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/4/14  更新Fibonacci类的两个新方法" />
+    <MESSAGE value="2020/4/17 更新LCS最大公共子序列类" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/4/17 更新LCS最大公共子序列类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -749,6 +772,12 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -757,8 +786,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main192.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main17" />
     <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1006,13 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3240">
@@ -1037,16 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -1054,10 +1064,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="70" lean-forward="true" selection-start-line="9" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/FJString.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="312">
+            <caret line="125" column="47" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LCS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="602">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
