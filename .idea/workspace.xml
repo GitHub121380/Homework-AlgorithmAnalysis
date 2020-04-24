@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework-AlgorithmAnalysis/cn/huaji/main/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="312">
-                <caret line="125" column="47" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
+              <first_editor relative-caret-position="588">
+                <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -50,19 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LCS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
             </state>
           </provider>
         </entry>
@@ -132,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java" />
       </list>
     </option>
   </component>
@@ -376,7 +365,8 @@
       <workItem from="1587167938692" duration="2856000" />
       <workItem from="1587204135573" duration="222000" />
       <workItem from="1587518815960" duration="3356000" />
-      <workItem from="1587603397813" duration="2823000" />
+      <workItem from="1587603397813" duration="4143000" />
+      <workItem from="1587694601259" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="求n的全排列">
       <created>1583046312534</created>
@@ -637,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587111566651</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="2020/4/23 更新矩阵连乘类">
+      <created>1587607009115</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1587607009116</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200050000" />
+    <option name="totallyTimeSpent" value="204168000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,8 +651,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.17315437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.17516778" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -731,7 +729,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/3/7&#10;   更新readme" />
     <MESSAGE value="2020/3/7 更新RotateString类 更新文档" />
     <MESSAGE value="2020/3/8 更新一些项目的编译文件和idea配置文件" />
     <MESSAGE value="2020/3/8 更新整数划分问题" />
@@ -756,7 +753,8 @@
     <MESSAGE value="2020/3/28  更新ShortestDistance类 给定平面上N个点的坐标,找出距离最近的两个点" />
     <MESSAGE value="2020/4/14  更新Fibonacci类的两个新方法" />
     <MESSAGE value="2020/4/17 更新LCS最大公共子序列类" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/4/17 更新LCS最大公共子序列类" />
+    <MESSAGE value="2020/4/23 更新矩阵连乘类" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/4/23 更新矩阵连乘类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1072,11 +1070,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/FJString.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LCS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="312">
-            <caret line="125" column="47" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
+          <first_editor relative-caret-position="588">
+            <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
@@ -1084,15 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LCS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="252">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>

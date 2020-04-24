@@ -65,6 +65,7 @@ public class MatrixMultiply {
         return tempMin;
     }
 
+
     /*
      * @Title upToDownDPMatrixMultiply
      * @Description 自顶向下的dp解法
@@ -83,7 +84,7 @@ public class MatrixMultiply {
             return m[i][j];
         for (int k = i; k < j; k++) {
             int result = upToDownDPMatrixMultiply(i, k) + upToDownDPMatrixMultiply(k + 1, j) + p[i - 1] * p[k] * p[j];
-            if (result<tempMin){
+            if (result < tempMin) {
                 tempMin = result;
                 s[i][j] = k;
             }
@@ -91,6 +92,44 @@ public class MatrixMultiply {
 
         }
         return tempMin;
+    }
+
+
+    /*
+     * @Title downToUpDPMatrixMultiply
+     * @Description 自底向上的dp解法
+     * @author 滑技工厂
+     * @Date 2020/4/24
+     * @param []
+     * @return void
+     * @throws
+     */
+    public static void downToUpDPMatrixMultiply() {
+        //定义链长的最大长度
+        int n = p.length - 1;
+        //r为每次计算的矩阵的链长，2——n
+        for (int r = 2; r <= n; r++) {
+            //定义在每次链长r中，矩阵链中各个矩阵结合的小链左起点i   终止位置为n-r+1 j根据r+i-1来定
+            for (int i = 1; i <= n - r + 1; i++) {
+                int j = i + r - 1;
+                //m[i][j]为对应的r-1的小链的最优乘积次数值加上乘上矩阵[i]的次数
+                m[i][j] = m[i + 1][j] + p[i - 1] * p[i] * p[j];
+                //另外这里就代表k=i的划分
+                s[i][j] = i;
+                //每个小链里的划分情况，找出最小的那个
+                for (int k = i + 1; k < j; k++) {
+
+                    int min = m[i][k] + m[k + 1][j] + p[i - 1] * p[k] * p[j];
+                    if (min < m[i][j]) {
+                        m[i][j] = min;
+                        s[i][j] = k;
+                    }
+
+                }
+
+            }
+        }
+
     }
 
     /*
@@ -120,8 +159,9 @@ public class MatrixMultiply {
         m = new int[5+1][5+1];
         s = new int[5+1][5+1];
         //从1到n
-        int min = upToDownDPMatrixMultiply(1,5);
-
+//        int min = upToDownDPMatrixMultiply(1,5);
+        downToUpDPMatrixMultiply();
+        int min = m[1][5];
         System.out.println(min+" "+s[1][5]);
         pprint(1,5);
     }
