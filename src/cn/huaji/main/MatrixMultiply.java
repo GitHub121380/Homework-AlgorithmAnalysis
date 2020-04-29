@@ -155,7 +155,7 @@ public class MatrixMultiply {
 
     public static void main(String[] args) {
         //6个值，5个矩阵
-        p = new int[]{5,6,8,3,2,6};
+        p = new int[]{20,25,10,5,15,20};
         m = new int[5+1][5+1];
         s = new int[5+1][5+1];
         //从1到n
