@@ -9,11 +9,11 @@ package cn.huaji.main;
  */
 public class PackageProblem {
 
-    static boolean[] choice;
+    static boolean[] choice = new boolean[5];
     static int[][] dp;
 
-    static int[] weights = {2, 3, 4, 5};            //商品的体积2、3、4、5
-    static int[] values = {3, 4, 5, 6};
+    static int[] weights = {3, 4, 7, 8,9};            //商品的体积2、3、4、5
+    static int[] values = {4, 5, 10, 11,13};
 
 
     /*
@@ -74,8 +74,8 @@ public class PackageProblem {
 
 
     public static void main(String[] args) {
-        int bagV = 8;
-        System.out.println(package01(weights, values, bagV)[4][8]);
+        int bagV = 17;
+        System.out.println(package01(weights, values, bagV)[5][17]);
     }
 
 }
