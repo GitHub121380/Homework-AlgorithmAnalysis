@@ -3,6 +3,8 @@ package cn.huaji.main;
 /**
  * @ClassName LCS
  * @Description 最长公共子序列问题
+ * 子序列：一个特定序列的子序列就是将给定序列中零个或多个元素去掉后得到的结果(不改变元素间相对次序)。（在原序列中不用连续） 序列<A,B,C,B,D,A,B>的子序列有：<A,B>、<B,C,A>、<A,B,C,D,A>等。
+ * 字串：将一个序列从最前或最后或同时删掉零个或几个字符构成的新系列。必须是原序列中连续的
  * @author 滑技工厂 https://blog.csdn.net/qq_41718454
  * @date 2020/4/17
  * @version 1.0

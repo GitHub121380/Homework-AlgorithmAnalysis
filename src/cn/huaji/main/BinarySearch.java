@@ -64,8 +64,8 @@ public class BinarySearch {
 
     public static void main(String[] args) {
 
-        int[] arr = {1,2,3,5,6,8,9};
-        System.out.println(nonRecursiveBinarySearch(arr,10));
+        int[] arr = {1, 2, 3, 5, 6, 8, 9};
+        System.out.println(nonRecursiveBinarySearch(arr, 10));
 
     }
 

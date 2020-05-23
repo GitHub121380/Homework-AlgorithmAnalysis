@@ -83,10 +83,10 @@ public class MaxChildParaSum {
     }
 
     public static void main(String[] args) {
-        int[] arr = {-20,11,-4,13,-5,2};
+        int[] arr = {-20, 11, -4, 13, -5, 2};
         System.out.println(maxChildSum(arr));
         for (Integer integer : queue) {
-            System.out.print(integer.intValue()+" ");
+            System.out.print(integer.intValue() + " ");
         }
 
     }
