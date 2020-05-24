@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/ImageCompress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/DianLuBuXian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -39,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="461">
-                <caret line="150" column="3" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
+              <first_editor relative-caret-position="473">
+                <caret line="158" column="29" lean-forward="true" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ImageCompress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="550">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -142,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ImageCompress.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/DianLuBuXian.java" />
       </list>
     </option>
   </component>
@@ -160,10 +161,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-902" />
-    <option name="y" value="306" />
-    <option name="width" value="1556" />
-    <option name="height" value="882" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,8 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,7 +208,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -229,9 +230,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImageCompress">
-    <configuration name="ImageCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.ImageCompress" />
+  <component name="RunManager" selected="Application.DianLuBuXian">
+    <configuration name="DianLuBuXian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.DianLuBuXian" />
       <module name="Homework-AlgorithmAnalysis" />
       <extension name="coverage">
         <pattern>
@@ -243,8 +244,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Main" />
+    <configuration name="ImageCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.ImageCompress" />
       <module name="Homework-AlgorithmAnalysis" />
       <extension name="coverage">
         <pattern>
@@ -296,19 +297,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.PackageProblem" />
       <item itemvalue="Application.PolygonGame" />
       <item itemvalue="Application.MaxChildParaSum" />
       <item itemvalue="Application.ImageCompress" />
+      <item itemvalue="Application.DianLuBuXian" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DianLuBuXian" />
         <item itemvalue="Application.ImageCompress" />
         <item itemvalue="Application.MaxChildParaSum" />
         <item itemvalue="Application.PackageProblem" />
         <item itemvalue="Application.PolygonGame" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -416,14 +417,10 @@
       <workItem from="1590117984173" duration="804000" />
       <workItem from="1590121019383" duration="227000" />
       <workItem from="1590121284441" duration="2094000" />
-      <workItem from="1590196337055" duration="8461000" />
-    </task>
-    <task id="LOCAL-00001" summary="求n的全排列">
-      <created>1583046312534</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1583046312534</updated>
+      <workItem from="1590196337055" duration="9046000" />
+      <workItem from="1590224843466" duration="595000" />
+      <workItem from="1590289889321" duration="54000" />
+      <workItem from="1590304410134" duration="3618000" />
     </task>
     <task id="LOCAL-00002" summary="2020/3/1&#10;   算法作业累计commit">
       <created>1583048071758</created>
@@ -761,11 +758,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590197507213</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="2020/5/23   更新ImageCompress图像压缩问题">
+      <created>1590217473603</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1590217473603</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290393000" />
+    <option name="totallyTimeSpent" value="295245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,9 +781,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.2353362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.229585" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -788,7 +792,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31432748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -859,7 +863,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/3/13  更新Chess类 棋盘覆盖问题" />
     <MESSAGE value="2020/3/14  更新大整数相乘BigInteger类" />
     <MESSAGE value="2020/3/14  更新StrassenMutipleMatrix类" />
     <MESSAGE value="2020/3/17 更新归并排序递归" />
@@ -884,7 +887,8 @@
     <MESSAGE value="2020/5/22  更新背包问题" />
     <MESSAGE value="2020/5/22 更新MaxChildParaSum最大子段和类 dp[i] = max{dp[i-1] + A[i], A[i]}" />
     <MESSAGE value="2020/5/23  更新小细节" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/5/23  更新小细节" />
+    <MESSAGE value="2020/5/23   更新ImageCompress图像压缩问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/5/23   更新ImageCompress图像压缩问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -932,13 +936,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/PassBridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1271,18 +1268,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/DianLuBuXian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ImageCompress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="550">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="461">
-            <caret line="150" column="3" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
+          <first_editor relative-caret-position="473">
+            <caret line="158" column="29" lean-forward="true" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
