@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/Johnson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/BestBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="448">
-                <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+              <first_editor relative-caret-position="258">
+                <caret line="160" column="26" selection-start-line="160" selection-start-column="26" selection-end-line="160" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,10 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Johnson.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BestBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+            <state relative-caret-position="250">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -92,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main192.java" />
         <option value="$PROJECT_DIR$/src/Main19.java" />
         <option value="$PROJECT_DIR$/src/Main17.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -140,9 +139,10 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/MaxChildParaSum.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/LCS.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ImageCompress.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/DianLuBuXian.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Johnson.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/BestBinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -230,7 +230,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Johnson">
+  <component name="RunManager" selected="Application.BestBinarySearchTree">
+    <configuration name="BestBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.BestBinarySearchTree" />
+      <module name="Homework-AlgorithmAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.huaji.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DianLuBuXian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.DianLuBuXian" />
       <module name="Homework-AlgorithmAnalysis" />
@@ -283,33 +296,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.PackageProblem" />
-      <module name="Homework-AlgorithmAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.huaji.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.PackageProblem" />
       <item itemvalue="Application.MaxChildParaSum" />
       <item itemvalue="Application.ImageCompress" />
       <item itemvalue="Application.DianLuBuXian" />
       <item itemvalue="Application.Johnson" />
+      <item itemvalue="Application.BestBinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BestBinarySearchTree" />
         <item itemvalue="Application.Johnson" />
         <item itemvalue="Application.DianLuBuXian" />
         <item itemvalue="Application.ImageCompress" />
         <item itemvalue="Application.MaxChildParaSum" />
-        <item itemvalue="Application.PackageProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -420,14 +420,7 @@
       <workItem from="1590196337055" duration="9046000" />
       <workItem from="1590224843466" duration="595000" />
       <workItem from="1590289889321" duration="54000" />
-      <workItem from="1590304410134" duration="5210000" />
-    </task>
-    <task id="LOCAL-00003" summary="2020/3/1&#10;   算法作业累计commit">
-      <created>1583048406067</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1583048406067</updated>
+      <workItem from="1590304410134" duration="5826000" />
     </task>
     <task id="LOCAL-00004" summary="2020/3/6&#10;     node更新方法：getReciprocal  获取倒数第n个结点">
       <created>1583501477527</created>
@@ -765,11 +758,18 @@
       <option name="project" value="LOCAL" />
       <updated>1590309065083</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="2020/5/24  更新Johnson类流水作业调度问题">
+      <created>1590310612039</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1590310612039</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296837000" />
+    <option name="totallyTimeSpent" value="297453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,13 +793,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31432748" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31432748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24561404" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.38603988" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932885" weight="0.3859649" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.33475783" />
@@ -864,7 +864,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/3/14  更新StrassenMutipleMatrix类" />
     <MESSAGE value="2020/3/17 更新归并排序递归" />
     <MESSAGE value="2020/3/18 更新归并排序非递归方法" />
     <MESSAGE value="2020/3/16 更新格式" />
@@ -889,7 +888,8 @@
     <MESSAGE value="2020/5/23  更新小细节" />
     <MESSAGE value="2020/5/23   更新ImageCompress图像压缩问题" />
     <MESSAGE value="2020/5/24  电路布线问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/5/24  电路布线问题" />
+    <MESSAGE value="2020/5/24  更新Johnson类流水作业调度问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/5/24  更新Johnson类流水作业调度问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -937,13 +937,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/SearchNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2940">
@@ -1250,13 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HanoiImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/DianLuBuXian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1271,16 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="448">
-            <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1856">
@@ -1290,8 +1266,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Johnson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HanoiImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="258">
+            <caret line="160" column="26" selection-start-line="160" selection-start-column="26" selection-end-line="160" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/BestBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
