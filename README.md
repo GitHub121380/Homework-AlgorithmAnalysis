@@ -168,3 +168,8 @@
 # 2020/6/5
 
    ### 更新ActivityArrangement类活动选择问题 选结束时间最早的
+   
+# 2020/6/7
+
+   ### 更新HuffmanGreedy类哈夫曼树的贪心
+   
