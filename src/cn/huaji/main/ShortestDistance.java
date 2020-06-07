@@ -33,7 +33,7 @@ public class ShortestDistance {
             //初始化默认从源点直达，后面如果途径中间结点会修改
             path[i] = "0-->" + i;
         }
-        //已经访问过源点
+        //源点已经访问过
         visit[0] = true;
         //表示计数，已经访问过一个结点
         int count = 1;

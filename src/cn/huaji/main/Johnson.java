@@ -97,7 +97,6 @@ public class Johnson {
 
         int k = flowShop(a, b, c);
         System.out.println("完成作业的最短时间为:" + k);
-
     }
 
 }
