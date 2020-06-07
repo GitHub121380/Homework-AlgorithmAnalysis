@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @ClassName ActivityArrangement
  * @Description 活动安排问题 贪心算法 不考虑整体最优而专注局部最优解
  *
- *设有n个活动的集合E＝{1，2，…，n}，其中每个活动都要求使用同一资源，如演讲会场等，
+ * 设有n个活动的集合E＝{1，2，…，n}，其中每个活动都要求使用同一资源，如演讲会场等，
  * 而在同一时间内只有一个活动能使用这一资源。
  * 每个活动i都有一个要求使用该资源的起始时间si和一个结束时间fi，且si＜fi。
  * 如果选择了活动i，则它在半开时间区间[si ，fi )内占用资源。若区间[si ，fi )与区间[sj，fj )不相交，
@@ -56,14 +56,17 @@ public class ActivityArrangement {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(new BufferedInputStream(System.in));
+        //设置活动个数
         int n = sc.nextInt();
         Activity activities[] = new Activity[n];
 
+        //设置活动索引和开始时间
         for (int i = 0; i < n; i++) {
             activities[i] = new Activity();
             activities[i].index = i;
             activities[i].starttime = sc.nextInt();
         }
+        //设置活动结束时间
         for (int i = 0; i < n; i++) {
             activities[i].finaltime = sc.nextInt();
         }

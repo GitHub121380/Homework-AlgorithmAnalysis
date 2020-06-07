@@ -7,7 +7,6 @@ package cn.huaji.main;
  * @date 2020/4/29
  * @version 1.0
  */
-
 public class ShortestDistance {
     public static final int MAX = 1000000000;
 

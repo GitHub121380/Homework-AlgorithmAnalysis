@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/HuffmanGreedy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/Johnson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/Johnson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,11 +47,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="357">
+              <caret line="109" selection-start-line="9" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HuffmanGreedy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="124" column="1" lean-forward="true" selection-start-line="13" selection-end-line="124" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,10 +164,10 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ImageCompress.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/DianLuBuXian.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/BestBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/HuffmanGreedy.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Johnson.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" />
       </list>
     </option>
@@ -165,10 +187,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="87" />
-    <option name="y" value="-24" />
-    <option name="width" value="1820" />
-    <option name="height" value="1049" />
+    <option name="x" value="203" />
+    <option name="y" value="-28" />
+    <option name="width" value="1818" />
+    <option name="height" value="1083" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,6 +216,13 @@
               <item name="Homework-AlgorithmAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework-AlgorithmAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework-AlgorithmAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ActivityArrangement.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuffmanGreedy">
+  <component name="RunManager" selected="Application.ActivityArrangement">
     <configuration name="ActivityArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.ActivityArrangement" />
       <module name="Homework-AlgorithmAnalysis" />
@@ -250,19 +279,6 @@
     </configuration>
     <configuration name="BestBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.BestBinarySearchTree" />
-      <module name="Homework-AlgorithmAnalysis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.huaji.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DianLuBuXian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.DianLuBuXian" />
       <module name="Homework-AlgorithmAnalysis" />
       <extension name="coverage">
         <pattern>
@@ -300,20 +316,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShortestDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.ShortestDistance" />
+      <module name="Homework-AlgorithmAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.huaji.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DianLuBuXian" />
       <item itemvalue="Application.Johnson" />
       <item itemvalue="Application.BestBinarySearchTree" />
       <item itemvalue="Application.ActivityArrangement" />
       <item itemvalue="Application.HuffmanGreedy" />
+      <item itemvalue="Application.ShortestDistance" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HuffmanGreedy" />
         <item itemvalue="Application.ActivityArrangement" />
+        <item itemvalue="Application.ShortestDistance" />
+        <item itemvalue="Application.HuffmanGreedy" />
         <item itemvalue="Application.BestBinarySearchTree" />
         <item itemvalue="Application.Johnson" />
-        <item itemvalue="Application.DianLuBuXian" />
       </list>
     </recent_temporary>
   </component>
@@ -428,28 +457,7 @@
       <workItem from="1590560440540" duration="419000" />
       <workItem from="1591324126970" duration="6886000" />
       <workItem from="1591434516585" duration="7256000" />
-      <workItem from="1591515526956" duration="2613000" />
-    </task>
-    <task id="LOCAL-00006" summary="2020/3/7&#10;   更新Node、Permutation类">
-      <created>1583551962714</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1583551962714</updated>
-    </task>
-    <task id="LOCAL-00007" summary="2020/3/7&#10;   更新BrokenKeyboard类（破损的键盘）和Readme">
-      <created>1583552099703</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1583552099703</updated>
-    </task>
-    <task id="LOCAL-00008" summary="2020/3/7&#10;   更新readme">
-      <created>1583552503923</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1583552503923</updated>
+      <workItem from="1591515526956" duration="5580000" />
     </task>
     <task id="LOCAL-00009" summary="2020/3/7&#10;   更新readme">
       <created>1583552603728</created>
@@ -773,11 +781,32 @@
       <option name="project" value="LOCAL" />
       <updated>1591351314283</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="2020/6/7 更新HuffmanGreedy类哈夫曼树的贪心">
+      <created>1591519447831</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1591519447832</updated>
+    </task>
+    <task id="LOCAL-00056" summary="2020/6/7 小修改">
+      <created>1591519464891</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1591519464891</updated>
+    </task>
+    <task id="LOCAL-00057" summary="2020/6/7 小修改">
+      <created>1591519572449</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1591519572449</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317772000" />
+    <option name="totallyTimeSpent" value="320739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -790,8 +819,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.18875502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.20147255" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -800,7 +830,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2982456" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3406433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -871,8 +901,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/3/16 更新格式" />
-    <MESSAGE value="2020/3/20 更新快排非递归方法" />
     <MESSAGE value="2020/3/21  更新归并排序和快速排序" />
     <MESSAGE value="2020/3/26  更新LinearSelect线性时间选择的第一种——随机元素为基准的线性时间选择" />
     <MESSAGE value="2020/3/27   更新LinearSelect线性时间选择的第二种——利用中位数线性时间选择" />
@@ -896,7 +924,9 @@
     <MESSAGE value="2020/5/24  更新Johnson类流水作业调度问题" />
     <MESSAGE value="2020/5/24  更新BestBinarySearchTree类最优二叉搜索树" />
     <MESSAGE value="2020/6/5  更新ActivityArrangement类活动安排问题 选结束时间最早的" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/6/5  更新ActivityArrangement类活动安排问题 选结束时间最早的" />
+    <MESSAGE value="2020/6/7 更新HuffmanGreedy类哈夫曼树的贪心" />
+    <MESSAGE value="2020/6/7 小修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/6/7 小修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1232,31 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HuffmanGreedy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="132" column="3" lean-forward="true" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#2276#2291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Johnson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
@@ -1298,10 +1303,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="357">
+          <caret line="109" selection-start-line="9" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HuffmanGreedy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="124" column="1" lean-forward="true" selection-start-line="13" selection-end-line="124" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
