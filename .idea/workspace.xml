@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a9eef4-49dd-4be7-a94d-41277b0a95d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/huaji/main/NormalPackageProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,12 +35,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="244">
-                <caret line="173" column="29" lean-forward="true" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
+              <first_editor relative-caret-position="548">
+                <caret line="177" column="36" lean-forward="true" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="36" />
               </first_editor>
               <second_editor />
             </state>
@@ -50,17 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="2725">
               <caret line="109" selection-start-line="9" selection-end-line="109" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HuffmanGreedy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="124" column="1" lean-forward="true" selection-start-line="13" selection-end-line="124" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="125" column="3" selection-start-line="125" selection-start-column="3" selection-end-line="125" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,13 +69,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/PackageProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="401">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/NormalPackageProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-760">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -118,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Main18.java" />
         <option value="$PROJECT_DIR$/src/Main4.java" />
         <option value="$PROJECT_DIR$/src/Main6.java" />
@@ -156,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Main2.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/PolygonGame.java" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/PackageProblem.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/MatrixMultiply.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/MaxChildParaSum.java" />
@@ -165,10 +169,12 @@
         <option value="$PROJECT_DIR$/src/cn/huaji/main/DianLuBuXian.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/BestBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/HuffmanGreedy.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/Johnson.java" />
-        <option value="$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java" />
         <option value="$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/PackageProblem.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java" />
+        <option value="$PROJECT_DIR$/src/cn/huaji/main/NormalPackageProblem.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -187,10 +193,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="203" />
-    <option name="y" value="-28" />
-    <option name="width" value="1818" />
-    <option name="height" value="1083" />
+    <option name="x" value="202" />
+    <option name="y" value="-29" />
+    <option name="width" value="1819" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,17 +222,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Homework-AlgorithmAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework-AlgorithmAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="ActivityArrangement.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -263,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ActivityArrangement">
+  <component name="RunManager" selected="Application.NormalPackageProblem">
     <configuration name="ActivityArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.huaji.main.ActivityArrangement" />
       <module name="Homework-AlgorithmAnalysis" />
@@ -303,8 +302,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Johnson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.Johnson" />
+    <configuration name="NormalPackageProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huaji.main.NormalPackageProblem" />
       <module name="Homework-AlgorithmAnalysis" />
       <extension name="coverage">
         <pattern>
@@ -330,19 +329,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Johnson" />
       <item itemvalue="Application.BestBinarySearchTree" />
       <item itemvalue="Application.ActivityArrangement" />
       <item itemvalue="Application.HuffmanGreedy" />
       <item itemvalue="Application.ShortestDistance" />
+      <item itemvalue="Application.NormalPackageProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NormalPackageProblem" />
         <item itemvalue="Application.ActivityArrangement" />
         <item itemvalue="Application.ShortestDistance" />
         <item itemvalue="Application.HuffmanGreedy" />
         <item itemvalue="Application.BestBinarySearchTree" />
-        <item itemvalue="Application.Johnson" />
       </list>
     </recent_temporary>
   </component>
@@ -457,14 +456,8 @@
       <workItem from="1590560440540" duration="419000" />
       <workItem from="1591324126970" duration="6886000" />
       <workItem from="1591434516585" duration="7256000" />
-      <workItem from="1591515526956" duration="5580000" />
-    </task>
-    <task id="LOCAL-00009" summary="2020/3/7&#10;   更新readme">
-      <created>1583552603728</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1583552603728</updated>
+      <workItem from="1591515526956" duration="5696000" />
+      <workItem from="1591751841743" duration="4245000" />
     </task>
     <task id="LOCAL-00010" summary="2020/3/7&#10;   更新readme">
       <created>1583552692705</created>
@@ -802,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591519572449</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="2020/6/7 小修改">
+      <created>1591525400786</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1591525400787</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320739000" />
+    <option name="totallyTimeSpent" value="325100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,7 +821,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.20147255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857953" visible="true" weight="0.20414993" />
       <window_info id="Structure" order="1" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -830,8 +830,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50142044" side_tool="true" weight="0.18322147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3406433" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986111" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3406433" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39766082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24561404" />
@@ -962,27 +962,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/StrassenMutipleMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="147" column="22" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/LinearSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3240">
-          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/GetOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
@@ -1174,13 +1153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/PackageProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1283,16 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="244">
-            <caret line="173" column="29" lean-forward="true" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1850">
@@ -1303,30 +1265,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2725">
+          <caret line="109" selection-start-line="9" selection-end-line="109" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ShortestDistance.java">
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/lang/Package.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="109" selection-start-line="9" selection-end-line="109" />
+        <state relative-caret-position="220">
+          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/ActivityArrangement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/HuffmanGreedy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="124" column="1" lean-forward="true" selection-start-line="13" selection-end-line="124" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="125" column="3" selection-start-line="125" selection-start-column="3" selection-end-line="125" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/PackageProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huaji/main/NormalPackageProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-760">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="548">
+            <caret line="177" column="36" lean-forward="true" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

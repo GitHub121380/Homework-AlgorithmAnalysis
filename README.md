@@ -173,3 +173,6 @@
 
    ### 更新HuffmanGreedy类哈夫曼树的贪心
    
+# 2020/6/10
+   
+   ### 更新NormalPackageProblem类一般背包问题
